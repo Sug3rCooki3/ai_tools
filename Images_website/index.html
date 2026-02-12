@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Tools: Neo Space Design Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="nebula"></div>
+    <div class="orbit orbit-one"></div>
+    <div class="orbit orbit-two"></div>
+
+    <header class="hero">
+      <p class="hero-kicker">Neo Space Design Lab</p>
+      <h1>AI Tools for visual creation and critique.</h1>
+      <p class="hero-copy">
+        A CLI toolbelt that generates cat imagery, captures live website
+        screenshots, and routes them to Gemini for grounded design feedback.
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#tooling">Explore toolchain</a>
+        <a class="btn ghost" href="#workflow">View workflow</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="tooling" class="panel grid">
+        <div class="panel-title">
+          <p class="label">What we built</p>
+          <h2>Command line modules with a cosmic edge.</h2>
+          <p class="muted">
+            Each command is designed to ship quickly while preserving visual
+            rigor.
+          </p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-header">
+              <span class="chip">images</span>
+              <h3>Cat image generator</h3>
+            </div>
+            <p>
+              Creates high-resolution cat visuals using OpenAI, saving each PNG
+              into the <span class="mono">/images</span> directory with
+              timestamped naming.
+            </p>
+            <ul>
+              <li>Batch-friendly generation</li>
+              <li>Prompt guardrails for cats</li>
+              <li>Local file output</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="card-header">
+              <span class="chip">design-review</span>
+              <h3>Screenshot critique pipeline</h3>
+            </div>
+            <p>
+              Captures a site with Playwright, sends the screenshot to Gemini,
+              and writes structured feedback into <span class="mono">/reviews</span>.
+            </p>
+            <ul>
+              <li>Viewport + full-page capture</li>
+              <li>Custom rubric prompts</li>
+              <li>Markdown feedback logs</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="card-header">
+              <span class="chip">research</span>
+              <h3>Web search intelligence</h3>
+            </div>
+            <p>
+              Runs a web search with OpenAI and stores a summarized report in
+              the <span class="mono">/library</span> index.
+            </p>
+            <ul>
+              <li>Source-aware summaries</li>
+              <li>Offline and allow-list modes</li>
+              <li>Structured archive</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="workflow" class="panel workflow">
+        <div>
+          <p class="label">Workflow</p>
+          <h2>From capture to critique in one orbit.</h2>
+        </div>
+        <div class="timeline">
+          <div class="step">
+            <span>01</span>
+            <h3>Generate visuals</h3>
+            <p>Create a batch of cat images and log them locally.</p>
+          </div>
+          <div class="step">
+            <span>02</span>
+            <h3>Capture UI states</h3>
+            <p>Automate screenshots with controlled viewports.</p>
+          </div>
+          <div class="step">
+            <span>03</span>
+            <h3>Send to Gemini</h3>
+            <p>Request actionable design feedback in seconds.</p>
+          </div>
+          <div class="step">
+            <span>04</span>
+            <h3>Ship and iterate</h3>
+            <p>Review markdown logs and refine the UI system.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel updates">
+        <div>
+          <p class="label">Gemini audit</p>
+          <h2>Design improvements applied.</h2>
+          <p class="muted">
+            Adjustments focus on stronger hierarchy, better readability, and
+            improved accessibility.
+          </p>
+        </div>
+        <ul class="audit-list">
+          <li>Boosted section label prominence for clearer navigation.</li>
+          <li>Increased body text size inside feature cards.</li>
+          <li>Improved contrast on muted text and accents.</li>
+          <li>Added visible focus styles for keyboard navigation.</li>
+        </ul>
+      </section>
+
+      <section class="panel command">
+        <div>
+          <p class="label">Quick command</p>
+          <h2>Run the review pipeline.</h2>
+        </div>
+        <pre><code>npm run dev -- design-review https://example.com \
+  --viewport 1440x900 \
+  --full-page \
+  --prompt "Audit layout, typography, contrast, and motion."</code></pre>
+        <p class="muted">Feedback and screenshots are stored automatically.</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>AI Tools - Neo Space Design Lab - 2026</p>
+    </footer>
+  </body>
+</html>
