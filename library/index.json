@@ -1,0 +1,111 @@
+[
+  {
+    "id": "2026-02-09T21-47-58-902Z__openai-agentic-search-tool",
+    "query": "openai agentic search tool",
+    "file": "library/2026-02-09T21-47-58-902Z__openai-agentic-search-tool.md",
+    "createdAt": "2026-02-09T21:47:58.902Z",
+    "model": "gpt-5-2025-08-07",
+    "sources": [
+      {
+        "type": "url",
+        "url": "https://www.techradar.com/pro/openai-introduces-frontier-an-easier-way-to-manage-all-your-ai-agents-in-one-place"
+      },
+      {
+        "type": "url",
+        "url": "https://www.theverge.com/news/604902/chagpt-deep-research-ai-agent"
+      },
+      {
+        "type": "url",
+        "url": "https://www.theguardian.com/technology/2024/dec/24/chatgpt-search-tool-vulnerable-to-manipulation-and-deception-tests-show"
+      },
+      {
+        "type": "url",
+        "url": "https://learn.microsoft.com/en-us/azure/search/search-get-started-agentic-retrieval"
+      },
+      {
+        "type": "url",
+        "url": "https://openai.com/index/agentic-ai-foundation/"
+      },
+      {
+        "type": "url",
+        "url": "https://github.com/qx-labs/agents-deep-research"
+      },
+      {
+        "type": "url",
+        "url": "https://techcrunch.com/2025/03/11/openai-launches-new-tools-to-help-businesses-build-ai-agents/"
+      },
+      {
+        "type": "url",
+        "url": "https://openai.com/index/new-tools-for-building-agents/"
+      },
+      {
+        "type": "url",
+        "url": "https://openai.com/solutions/use-case/agents/"
+      },
+      {
+        "type": "url",
+        "url": "https://arxiv.org/abs/2505.19253"
+      },
+      {
+        "type": "url",
+        "url": "https://docs.agentic.so/marketplace/ts-sdks/openai-responses"
+      },
+      {
+        "type": "url",
+        "url": "https://openai.com/index/introducing-chatgpt-search/"
+      },
+      {
+        "type": "url",
+        "url": "https://help.openai.com/en/articles/9237897-chatgpt-search"
+      },
+      {
+        "type": "url",
+        "url": "https://openai.com/chatgpt/search-product-discovery/"
+      },
+      {
+        "type": "url",
+        "url": "https://platform.openai.com/docs/guides/tools-file-search/"
+      },
+      {
+        "type": "url",
+        "url": "https://platform.openai.com/docs/bots/overview-of-"
+      },
+      {
+        "type": "url",
+        "url": "https://platform.openai.com/docs/models/gpt-4o-search-preview"
+      },
+      {
+        "type": "url",
+        "url": "https://platform.openai.com/docs/models/gpt-4o-mini-search-preview"
+      },
+      {
+        "type": "url",
+        "url": "https://openai.com/index/chatgpt-shopping-research"
+      },
+      {
+        "type": "url",
+        "url": "https://platform.openai.com/docs/guides/tools/file-search"
+      },
+      {
+        "type": "url",
+        "url": "https://platform.openai.com/docs/guides/tools/tool-choice"
+      },
+      {
+        "type": "url",
+        "url": "https://platform.openai.com/docs/guides/retrieval"
+      },
+      {
+        "type": "url",
+        "url": "https://platform.openai.com/docs/assistants/tools"
+      },
+      {
+        "type": "url",
+        "url": "https://platform.openai.com/docs/api-reference/responses/compact/"
+      },
+      {
+        "type": "url",
+        "url": "https://platform.openai.com/docs/assistants/tools/file-search/step-4-create-a-thread"
+      }
+    ]
+  }
+]
